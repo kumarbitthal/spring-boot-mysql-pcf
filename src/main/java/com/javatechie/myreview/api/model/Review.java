@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="MYReview")
+@Table(name="myreview")
 public class Review {
 	@Id
 	@GeneratedValue

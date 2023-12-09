@@ -1,0 +1,20 @@
+Database: db1
+Table: package
+id:             varchar 32
+name:           varchar 32
+type:           varchar 32
+description:    text
+
+--------------- QUERY: -----------------------------
+CREATE TABLE article (
+    id VARCHAR(32) NOT NULL,
+    name VARCHAR(32) NOT NULL,
+    type VARCHAR(32) NOT NULL,
+    weight INT NOT NULL,
+    description VARCHAR(512) NOT NULL,
+    PRIMARY KEY (id)
+    );
+
+INSERT INTO article VALUES ('PK0001', 'ToolBox', 'Utility', 45, 'Utility Tool Box');
+INSERT INTO article VALUES ('PK0002', 'Deodorant', 'Fragrance', 2, 'Deo for Men');
+=======================================================
